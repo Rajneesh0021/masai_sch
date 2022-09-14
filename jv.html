@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <!--meta tags helps in SEO-->
+ 
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+   <!--some meta tags are -->
+  <meta http-equiv="refresh" content="2"
+    <meta name="description" content="write description about your website">
+  <meta name="keywords" content=" write keywords related to your website">
+  <meta name="robots" content="INDEX, FOLLOW "> <!--NOINDEX, NOFOLLOW is used to not to read by internet and cannot be shown on search-->
+  <title>code with harry 1 html</title>
+  <!--link tag is used to link external css file-->
+  <link rel="stylesheet" href="name of css file with location">
+  <!--script tag is used to link external javascript file-->
+  <script src="name of javascript file with .js"></script>
+</head>
+<body>
+  <h1>heading 1</h1>
+  <h2>heading 2</h2>
+  <h3>heading 3</h3>
+  <h4>heading 4</h4>
+  <h5>heading 5</h5>
+  <h6>heading 6</h6>
+  <p>this is a paragraph <strong>which</strong><!--this is used at the place of <b> bold --> will provide place to write paragraph this <em>could</em> <!-- <em>empasized is used at the p.ace of<i>italic--> be anything that you want to write </p>
+  <p>Lorem10 </p><!--emmet abbreviation will be shown here which will provide lorem10  which will provide 10 dummy words written randomly-->
+  
+  <!-- 'p*4' this function will print 4 paragraph -->
+  <p>this is new line to check line break<br> and draw horizontal line<hr> </p>
+  <a href="https://google.com" target="_blank">google</a><!--external link-->
+  <a href="/hey2.html" target="_blank">hey2</a> <!--internal link-->
+  
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwsM1q3tb6w1nwO7XS7PHrEjgjJcBe4JwbBhDKL_u7tZ92Qpss7dD0barJ&s=10" alt="error loading">
+  <ol>
+    <li>order list 1</li>
+    <li>order list 2</li>
+    <li>nested list
+      <ol>
+      <li>nested ordered list 1</li>
+      <li>nested ordered list 2</li>
+      </ol>
+    </li>
+    <li>order list 3</li>
+    <li>order list 4</li>
+  </ol><!--type="a, A, i or I" is present to count numbers-->
+  <ul>
+    <li>unordered list 1</li>
+    <li>unordered list 2</li>
+    <li>nested list
+      <ul type="circle">
+        <li>nested list 1</li>
+        <li>nested list 2</li>
+      </ul>
+    </li>
+    <li>unordered list 3</li>
+    <li>unordered list 4</li>
+  </ul><!--type="circle, disc or square " is used to define diffrent type of signs-->
+  <table>
+    <thead>
+      <tr>
+        <th>name</th><th>roll no.</th><th>class</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>suraj</th><th>2</th><th>10</th>
+      </tr>
+      <tr>
+        <th>vushal</th><th>4</th><th>2</th>
+      </tr>
+      <tr>
+        <th>nikhil</th><th>6</th><th>7</th>
+      </tr>
+    </tbody>
+  </table>
+  <form action="backend.php" <!--action will store value submited by user-->>
+    <div>
+      <label for="name">name</label><!--label tag-->
+      <input type="text" name="myname" id="name">
+    </div><!--div is used to make line break <br> is not recomended couse we will do these things through css-->
+    <div>
+      Role: <input type="text" name="myrole">
+    </div>
+    <div>
+      Email: <input type="text" name="myemail"><!--name attribute is used to store value in backend by the php so we can read the value name -->
+    </div>
+    <div>
+      date <input type="date" name="mydate" </div>
+      <div>
+      bonus: <input type="number" name="mybonus"></div>
+      <div>
+        marreid <input type="checkbox" name="mymarrieage" checked="">
+      </div>
+      <div>
+      gender: male<input type="radio" name="mygender"> female<input type="radio" name="mygender"</div>
+        <div>write about yourself: <textarea name="mytext"></textarea>
+        </div>
+        <label for="car">car</label>
+        <select name="mycar" id="car">
+          <option value="indica"> Indica</option>
+          <option value="swift">swift</option></select>
+    <div>
+      <input type="submit" value="submit now"><!-- here input tag is used to create button-->
+    </div>
+      <div> 
+        <input type="reset" value="reset"</div>
+        
+  </form>
+  
+</body>
+</html>
